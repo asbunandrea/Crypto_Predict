@@ -11,16 +11,6 @@ For this project, we will create a tool that can be utilized to better invest in
 2. ETH
 3. DASH
 
-## Data: Sources and Exploration
-____
-
-### Sources
-**[Goolge BigQuery](https://console.cloud.google.com/) (Google Cloud Platform):** Service platform that supports querying using ANSI SQL. Used to extract data on each currency such as mining difficulty, value, size, and the timestamp for each. 
-
-**[Reddit_NLP](https://www.reddit.com/) (Reddit):** Used for sentiment Analysis through Natural Language Process. Reddit is a social news aggregation, web content rating, and discussion website.
-
-**[Kraken API_Price](https://support.kraken.com/hc/en-us) (Kraken):** Used to encrypt our communication with the API.
-
 ### Clean Up and Exploration
 - Transposing and locating columns & rows
 - Specify dtype
@@ -32,7 +22,10 @@ ____
 - Concatenation
 
 ## Data Analysis
-* Techniques we used were the Random forest regressor with various features and the LSTM price action.
+* We utilized two predictive models - The *Random Forest Regressor (RF)* for features analysis and the *Long Short-Term Memory Recurrent Neural Network (LSTM RNN)* for historical price comparison.
+
+* Backtesting - Comparative status between the outcome of investing in the given currency with our models value predicition and the opposite case scenario in which we would hold the currency instead of actioning it according to the model predictions.
+
 ____
 ### Bitcoin (BTC)
 
@@ -111,6 +104,20 @@ ____
 - There are positive signs that various features are a better indicator than only closing price to predict crypto on a near future baisis.
 
 - This test would need to run with more crypto currencies in order to create a higher reliability on the tool’s accuracy to predict this, but due to time constraints we did not include more currencies in the test.
+
+## Sources
+____
+
+**[Google BigQuery](https://console.cloud.google.com/) (Google Cloud Platform):** Service platform that supports querying using ANSI SQL. Used to extract data on each currency such as mining difficulty, value, size, and the timestamp for each. 
+
+**[Reddit_NLP](https://www.reddit.com/) (Reddit):** Used for sentiment Analysis through Natural Language Process. Reddit is a social news aggregation, web content rating, and discussion website.
+
+**[Kraken API_Price](https://support.kraken.com/hc/en-us) (Kraken):** Used to encrypt our communication with the API.
+
+**[MFI](https://randerson112358.medium.com/algorithmic-trading-strategy-using-money-flow-index-mfi-python-aa46461a5ea5) (MFI):** Playbook to calculate MFI data
+
+**[Fear&Greed](https://alternative.me/crypto/fear-and-greed-index/) (Sentiment):** Patform for optimizing connections between a variety of software and product alternatives.
+
 
 
 | Project by |
