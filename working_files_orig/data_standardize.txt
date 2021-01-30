@@ -1,0 +1,18 @@
+Standardize Datasets
+
+All dataframes index by Date - convert from readable to UNIX
+
+1. Closing Prices - use actual closing prices
+
+2. Exponential Weighted Moving Average - use cross_over signal (-1.0, 0.0, 1.0)
+
+3. Fear and Greed Index - assign integer values (-1 Extreme Fear, -0.5 Fear, 0 Neutral, 0.5 Greed, 1.0 Extreme Greed) to value_classification. If necessary, we could categorize into three categories to match EWM crossover signals.
+
+4. Vader Sentiment - use compound sentiment scores ranging from -1.0 (Most Extreme Negative) to 1.0 (Most Extreme Positive). If necessary, we could categorize into three categories to match EWM crossover signals.
+
+5. Mining Difficulty - f1_ column. How standardize?
+
+6. Gas Prices - f1_ column. How standardize?
+
+7. Actual Value - f1_ column. How standardize? What is this value?
+
