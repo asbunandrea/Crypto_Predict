@@ -1,0 +1,16 @@
+SVR Model - this post is a very good walk through of how to understand and use the model.
+
+https://towardsdatascience.com/support-vector-regression-svr-one-of-the-most-flexible-yet-robust-prediction-algorithms-4d25fbdaca60
+
+All values must be integer to work with SVR and multivariate plots. The 3D plots don't like float.
+
+    - Mining Difficulty number is too long at 20 characters. Is it possible to drop any of the characters or convert to a manageable number?
+    - Transfer Value is also a large number. Is it possible to drop any of the characters or convert to a manageable number?
+    - Vader can't be converted to integer (I think) - may not be able to use.
+    
+We will need to pair down our features to 2 plus target(close price). I'm still trying to figure this out.
+
+Once we decide to move forward with these two models, we need to run a few different scenarios where we are tweaking the parameters.
+
+Focus on data visualizations
+    
