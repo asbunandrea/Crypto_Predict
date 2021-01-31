@@ -2,11 +2,11 @@
 
 ![Crypto](Images/multiple.jpg)
 
-*A Machine Learning Project to Predict a Cryptocurrency’s Positive/Negative Movement*
+### *A Machine Learning Project to Predict a Cryptocurrency’s Positive/Negative Movement*
 
 >**Hypothesis:** Can cryptocurrency on-chain data paired with technical indicators fit to a Machine Learning model be a reliable predictor of the next daily close? Is historical pricing the best indicator of a next day cryptocurrency price?
 
-For this project, we will create a tool that can be utilized to better invest in crypto according to our model’s prediction. The three Proof of Work currencies selected for the purposes of this project are:
+The three Proof of Work currencies selected for the purposes of this project are:
 1. BTC
 2. ETH
 3. DASH
@@ -15,6 +15,7 @@ For this project, we will create a tool that can be utilized to better invest in
 ___
 * We utilized two predictive models - The *Random Forest Regressor (RF)* for features analysis and the *Long Short-Term Memory Recurrent Neural Network (LSTM RNN)* for historical price comparison.
 
+<<<<<<< HEAD
 * Backtesting - Comparative study between the outcome of investing with the model's calls vs [*hodling*](https://en.wikipedia.org/wiki/Hodl) the given currency.
 
 
@@ -105,6 +106,10 @@ note: this model can be used with any features selected by the user as long as t
 
 
 ## Sample Data Visualizations (ETH)
+=======
+* We performed *backtesting* to compare the outcome of investing in a given currency with our model's value prediction for that currency as well as the opposite case scenario in which we would hold the currency instead of buying or selling it according to the model predictions.
+
+>>>>>>> d6bba49fe5bae372efcfb263e6dfc757cea8be4e
 ____
 ### Ethereum (ETH)
 
